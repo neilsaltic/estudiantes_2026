@@ -104,3 +104,29 @@ supercomparacion = a == b || b == a; // OR
 supercomparacion = !(a == b); // NOT
 
 
+/* 
+----- poder sacar el promedio de estidiante -----
+*/
+
+/* let estudiante = "Neils";
+let nota1 = 67; 
+let nota2 = 40;
+let nota3 = 90;
+let promedio = (nota1 + nota2 + nota3)/ 3;
+
+let mensaje: string = `el estudiante: ${estudiante} tiene el promedio de ${promedio}`;
+console.log(mensaje);
+ */
+
+/* --------------- SITIO DE PARQUEO----------
+quiere saber cuanto dinero cobrar por la cantidad de las horas que se quedo un auto 
+nombre de dueño 
+cant de horas 
+costo de 12$ la hora  */
+
+let dueño = "Jose Pelico";
+let horas = 12;
+
+let costo_total = horas *12;
+console.log(`el coto a pagar es de ${costo_total} `);
+
